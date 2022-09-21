@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+}
+
+#site_image {
+    float: left;
+}
+
+#site_title {
+    font-size: 50px;
+    font-style: italic;
+    text-shadow: 2px;
+}
+
+#site_slogan {
+    padding-left: 0.5em;
+}
+
+#main_text {
+    float:
+    padding: 7em;
+}
