@@ -20,3 +20,7 @@ body {
     float:
     padding: 7em;
 }
+
+header {
+    background-color: red;
+}
