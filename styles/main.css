@@ -9,17 +9,14 @@ body {
 #site_title {
     font-size: 50px;
     font-style: italic;
-    text-shadow: 2px;
+    color: orange;
+    text-shadow: 3px 3px black;
 }
 
 #site_slogan {
-    padding-left: 0.5em;
+    padding-left: 0.3em;
 }
 
 #main_text {
-    padding-left: 10em;
-}
-
-header {
-    background-color: red;
+    padding-left: 7em;
 }
