@@ -1,0 +1,154 @@
+html {
+    background-image: url("D:/AUM/Fall2022/Front-End Web Development/GIT_Repository/homework1/images/bats.gif");
+}
+
+body {
+    font-family: sans-serif;
+    width: 800px;
+    background-color: white;
+    display: table-cell;
+    vertical-align: middle;
+    border: 4px solid black;
+    box-shadow: 0px 0px 8px 10px;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+header {
+    height: 130px;
+    border-bottom: 4px black solid;
+    background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,166,0,1) 75%, rgba(0,0,0,1) 100%);
+}
+
+#site_slogan {
+    margin-top: -40px;
+}
+
+#w2 {
+    margin-top: -40px;
+}
+
+#site_title {
+    font-size: 50px;
+}
+
+#site_image {
+    padding-top: 10px;
+}
+
+.header_left {
+    padding-left: 20px;
+    width: 120px;
+    float: left;
+}
+
+.header_right {
+    margin-top: -30px;
+    width: 660px;
+    float: right;
+}
+
+main {
+    padding-left: 0px;
+    width: 640px;
+    float: right;
+    margin-right: 10px;
+}
+
+aside {
+    padding-top: 18px;
+    width: 150px;
+    float: left;
+}
+
+footer {
+    clear:both;
+    text-align: center;
+    font-size: 12px;
+    border-top: 4px black solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(255,166,0,1) 25%, rgba(255,255,255,1) 100%);
+}
+
+h1.welcome {
+    font-weight: 800;
+    margin-top: -15px;
+}
+
+h2, h3 {
+    font-weight:900;
+}
+
+/*
+#site_slogan {
+    padding-left: 0.3em;
+}
+
+#main_text {
+    padding-left: 7em;
+}
+*/
+
+li.main_link {
+    font-weight: bolder;
+    padding-bottom: 10px;;
+}
+
+a.mainlink:link {
+    font-weight: bolder;
+    color: orange
+}
+
+a.mainlink:visited {
+    color: orange;
+}
+
+a.mainlink:hover {
+    color: green;
+}
+
+em.bigw {
+    font-size: 80px;
+    font-style: normal;
+}
+
+/* ====== Nav Menu ======== */
+#nav_menu {
+	clear: left;
+	margin: 0;
+	padding: 0;
+}
+
+#nav_menu ul {
+	list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav_menu ul li a {
+	text-align: center;
+	padding: .7em 0;
+	text-decoration: none;
+	background-color: black;
+	color: white;
+    display: block;
+}
+
+#sub_menu ul {
+    display: none
+}
+
+#sub_menu ul:hover {
+    display:block;
+}
+
+#nav_menu ul li a.current {
+	color: orange;
+}
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+	background-color: gray;
+}

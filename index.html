@@ -10,29 +10,61 @@
 
 <body>
 	<header>
-		<img id="site_image" src="./images/pumpkin.gif" alt="Pumpkin Image">
-		<div id="main_text">
+		<div class="header_left">
+			<img id="site_image" src="./images/pumpkin.gif" alt="Pumpkin Image">
+		</div>
+		<div class="header_right" id="main_text">
 			<h2 id="site_title">The Halloween Store</h2>
 			<h3 id="site_slogan">For the little Goblin in all of us!</h3>
 		</div>
 	</header>
-	<h1>Welcome to my site. Please come in and stay awhile.</h1>
-	<p>
+	<nav>
+		<ul class="main_menu">
+			<li><a href="./index.html" class="active">Home</a></li>
+			<li><a href="./product_list.html">Product List</a></li>
+			<li><a href="#">Personal</a></li>
+			<li>
+				<a href="#">Decorating Ideas</a>
+				<ul class="sub_menu">
+					<li class="sub_item"><a href="#">Outdoor</a></li>
+					<li class="sub_item"><a href="#">Indoor</a></li>
+					<li class="sub_item"><a href="#">Table</a></li>
+					<li class="sub_item"><a href="#">Treats</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Join Email</a></li>
+		</ul>
+	</nav>
+	<main>
+		<h1 class="welcome"><em class="bigw">W</em>elcome to my site.</h1>
+		<h1 class="welcome" id="w2">Please come in and stay awhile.</h1>
+		<p>
 		I started this website because Halloween has always been my favorite holiday. But during the last year, I started selling some of my favorite Halloween products, and they've become quite a hit.
-	</p>
+		</p>
 
-	<p>	
+		<p>	
 		If you click on the Personal link, you can browse my favorite Halloween pictures, stories, and films. And if you join my email list, I will keep you up-to-date on all things Halloween.
-	</p>
-	<h2>Product categories</h2>
-	<ul>
-		<li class="main_link"><a class="mainlink" href="">Props</a></li>
-		<li class="main_link"><a class="mainlink" href="">Costumes</a></li>
-		<li class="main_link"><a class="mainlink" href="">Special Effects</a></li>
-		<li class="main_link"><a class="mainlink" href="">Masks</a></li>
-	</ul>
-	<h3>My guarantee</h3>
-	<p>If you aren't satisfied with everything you buy from my site, you can return it for a full refund. <b>No questions asked!</b></p>
+		</p>
+
+		<h2>Product of the Week</h2>
+		<div class="product_display">
+			<a href="./products/cat.html">
+				<img src="./images/cat1.jpg" alt="deranged cat product"><br>
+			</a>
+			<a class="product_link" href="./products/cat.html">20" Deranged Cat</a>
+		</div>
+		<br>
+		<h3>My guarantee</h3>
+		<p>If you aren't satisfied with everything you buy from my site, you can return it for a full refund. <b>No questions asked!</b></p>
+	</main>
+	<aside>
+		<ul class="sidenav">
+			<li class="main_link"><a href="#">Props</a></li>
+			<li class="main_link"><a href="#">Costumes</a></li>
+			<li class="main_link"><a href="#">Special FX</a></li>
+			<li class="main_link"><a href="#">Masks</a></li>
+		</ul>
+	</aside>
 	<footer>(c) 2018 Ben Murach</footer>
 </body>
 </html>

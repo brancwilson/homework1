@@ -1,18 +1,89 @@
-body {
-    font-family: sans-serif;
+html {
+    background-image: url("D:/AUM/Fall2022/Front-End Web Development/GIT_Repository/homework1/images/bats.gif");
 }
 
-#site_image {
-    float: left;
+body {
+    font-family: sans-serif;
+    width: 800px;
+    background-color: white;
+    display: table-cell;
+    vertical-align: middle;
+    border: 4px solid black;
+    box-shadow: 0px 0px 8px 10px;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+header {
+    height: 130px;
+    border-bottom: 4px black solid;
+    background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,166,0,1) 75%, rgba(0,0,0,1) 100%);
+}
+
+#site_slogan {
+    margin-top: -40px;
+}
+
+#w2 {
+    margin-top: -40px;
 }
 
 #site_title {
     font-size: 50px;
-    font-style: italic;
-    color: orange;
-    text-shadow: 3px 3px 2px black;
 }
 
+#site_image {
+    padding-top: 10px;
+}
+
+.header_left {
+    padding-left: 20px;
+    width: 120px;
+    float: left;
+}
+
+.header_right {
+    margin-top: -30px;
+    width: 660px;
+    float: right;
+}
+
+main {
+    padding-left: 0px;
+    width: 640px;
+    float: right;
+    margin-right: 0px;
+}
+
+aside {
+    padding-top: 18px;
+    width: 150px;
+    float: left;
+}
+
+footer {
+    clear:both;
+    text-align: center;
+    font-size: 12px;
+    border-top: 4px black solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(255,166,0,1) 25%, rgba(255,255,255,1) 100%);
+}
+
+h1.welcome {
+    font-weight: 800;
+    margin-top: -15px;
+}
+
+h2, h3 {
+    font-weight:900;
+}
+
+/*
 #site_slogan {
     padding-left: 0.3em;
 }
@@ -20,20 +91,99 @@ body {
 #main_text {
     padding-left: 7em;
 }
+*/
 
-li.main_link {
+/* ====== Side Nav Bar ====== */
+aside ul li{
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-left: -25px;
+    display: block;
+}
+aside ul li a:link, aside ul li a:visited {
+    border: 2px solid black;
+    background-color: orange;
+    color:black;
+    padding: 10px 10px;
+    text-align: left;
     font-weight: bold;
-    padding-bottom: 10px;;
+    text-decoration: none;
+    display: block;
 }
 
-a.mainlink:link {
-    color: orange
+aside ul li a:hover, aside ul li a:active {
+    background-color: white;
 }
 
-a.mainlink:visited {
+/* ========== */
+
+em.bigw {
+    font-size: 80px;
+    font-style: normal;
+}
+
+
+/* ====== Top Nav Menu ======== */
+li .active {
     color: orange;
 }
 
-a.mainlink:hover {
-    color: green;
+nav>ul {
+    margin: 0px;
+    padding: 11px 0px 14px 144px;
+    list-style: none;
+    white-space: nowrap;
+    background-color: black;
+    align-items: flex-start;
+    position: relative;
+}
+
+nav .main_menu>li {
+    display: inline-block;
+}
+
+nav>ul>li>a {
+    padding: 15px 10px 15px 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+nav li:hover>a {
+    background-color: gray;
+    cursor: pointer;
+}
+
+nav ul .sub_menu {
+    position: absolute;
+    display: none;
+    list-style: none;
+}
+
+nav .main_menu>li:hover .sub_menu {
+    display:block;
+    margin-top: 13px;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+li .sub_item a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 10px 44px;
+    background-color: rgb(0, 0, 0);
+}
+
+div.product_display {
+    position: relative;
+}
+
+div.product_display>a.product_link {
+    color: orange;
+    font-weight: bold;
+    position: absolute;
+    z-index: 10;
 }

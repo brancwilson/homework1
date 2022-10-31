@@ -1,0 +1,43 @@
+/* ==== Product Page ====== */
+div.product_content {
+    float: left;
+    width: 70%;
+    height: 500px;
+}
+
+div.product_image {
+    float: left;
+    width: 50%;
+    height: 421px;
+}
+
+div.product_desc {
+    float: left;
+    width: 50%;
+    height: 421px;
+}
+
+div.more_products {
+    background-color: rgb(255, 186, 103);
+    float: left;
+    width: 30%;
+    height: 500px;
+}
+
+div.more_products div.also_bought {
+    display: block;
+    padding: 15px;
+}
+
+div.also_bought img {
+    max-width: 50px;
+}
+
+div.also_bought a {
+    color: black;
+    font-size: 14px;
+}
+
+div.also_bought a:hover {
+    color: green;
+}

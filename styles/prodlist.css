@@ -1,0 +1,35 @@
+main>table.product_list {
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+main>table.product_list tr.table_head th.ctg1 {
+    padding-right: 95px;
+    color: gray;
+    font-weight: bold;
+}
+
+main>table.product_list tr.table_head th.ctg2 {
+    padding-right: 95px;
+    color: gray;
+    font-weight: bold;
+}
+
+main>table.product_list tr.table_head th.ctg3 {
+    padding-right: 28px;
+    color: gray;
+    font-weight: bold;
+}
+
+main th.category {
+    vertical-align: top;
+}
+
+main>table.product_list {
+    text-align: left;
+    text-decoration: none;
+}
+
+main>table.product_list a {
+    color: black;
+}
